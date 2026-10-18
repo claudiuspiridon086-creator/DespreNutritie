@@ -1,0 +1,77 @@
+```html
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DespreNutritie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><script src="script.js"></script>
+
+    <header>
+        <h1>DespreNutritie</h1>
+        <p>Învață să mănânci echilibrat!</p>
+    </header>
+
+    <nav>
+        <a href="#despre">Despre</a>
+        <a href="#alimente">Alimentație</a>
+        <a href="#sfaturi">Sfaturi</a>
+    </nav>
+
+    <main>
+        <section id="despre">
+            <h2>Ce este nutriția?</h2>
+            <p>Nutriția ne ajută să înțelegem cum alimentele oferă organismului energie și nutrienți pentru a funcționa bine.</p>
+        </section>
+
+        <section id="alimente">
+            <h2>Grupe de alimente</h2>
+
+            <div class="card">
+                <h3>🍎 Fructe și legume</h3>
+                <p>Oferă vitamine, minerale și fibre.</p>
+            </div>
+
+            <div class="card">
+                <h3>🥚 Proteine</h3>
+                <p>Se găsesc în ouă, fasole, pește și alte alimente.</p>
+            </div>
+
+            <div class="card">
+                <h3>🍞 Cereale</h3>
+                <p>Pâinea, ovăzul și orezul pot oferi energie.</p>
+            </div>
+        </section>
+
+        <section id="sfaturi">
+            <h2>Sfaturi pentru o viață sănătoasă</h2>
+            <ul>
+                <li>Mănâncă o varietate de alimente.</li>
+                <li>Bea apă pe parcursul zilei.</li>
+                <li>Bucură-te de mese regulate.</li>
+                <li>Fă mișcare într-un mod care îți place.</li>
+            </ul>
+        </section>
+
+        <section class="quiz">
+            <h2>Mini-quiz 🧠</h2>
+            <p>Ce băutură este esențială pentru hidratare?</p>
+
+            <button onclick="verificaRaspuns('suc')">Suc</button>
+            <button onclick="verificaRaspuns('apa')">Apă</button>
+            <button onclick="verificaRaspuns('energizant')">Băutură energizantă</button>
+
+            <p id="rezultat"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 DespreNutritie | Informații despre alimentație</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
